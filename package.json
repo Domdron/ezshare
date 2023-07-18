@@ -1,0 +1,23 @@
+{
+  "name": "ezshare",
+  "version": "1.0.0",
+  "description": "Automacally download images from an EZ Share WIFI SD card",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "oly": "node dist/main.js http://ezshare.card/dir?dir=A:%5CDCIM%5C100OLYMP ./raws/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "jsfitsio": "^1.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "typescript": "^5.1.6"
+  }
+}
