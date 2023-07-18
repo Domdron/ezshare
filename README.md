@@ -13,7 +13,7 @@ npm run build
 npm run start -- <directory-url> <output-directory>
 ```
 
-The directory-url is the directory listing page on the webserver of the EZ Shar 
+The directory-url is the directory listing page on the webserver of the EZ Share 
 card. For example, with the card's webserver's IP address mapped to hostname 
 ezshare.card (e.g. in /etc/hosts), and with an Olympus PEN camera, the 
 directory-url would be http://ezshare.card/dir?dir=A:%5CDCIM%5C100OLYMP.
