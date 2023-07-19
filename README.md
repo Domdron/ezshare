@@ -19,3 +19,7 @@ ezshare.card (e.g. in /etc/hosts), and with an Olympus PEN camera, the
 directory-url would be http://ezshare.card/dir?dir=A:%5CDCIM%5C100OLYMP.
 
 For this particular case, one can also `npm run oly`. 
+
+> _Note:_ Also note that the EZ Share card only allows connection to its own WIFI network, i.e. it can't join an existing network. If one needs to connect to the internet at the same time, or to other devices (such as e.g. a networked telescope mount), one needs to connect multiple network interfaces. E.g. I'm connecting my WIFI to the EZ Share, and connect to my internet router via ethernet, to which my SynScan mount control is also connected. One might need to adjust the routing table if it's not configured correctly automatically.
+> 
+
